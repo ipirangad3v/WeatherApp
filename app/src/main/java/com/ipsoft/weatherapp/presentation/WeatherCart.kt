@@ -38,7 +38,9 @@ fun WeatherCart(
         Card(
             backgroundColor = backGroundColor,
             shape = RoundedCornerShape(10.dp),
-            modifier = modifier.padding(10.dp)
+            modifier = modifier
+                .padding(10.dp)
+                .fillMaxWidth()
         ) {
             Column(
                 modifier = Modifier

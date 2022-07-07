@@ -20,9 +20,6 @@ class WeatherViewModel @Inject constructor(
 
     var state by mutableStateOf(WeatherState())
         private set
-    var showRetrievePermissions by mutableStateOf(false)
-        private set
-
 
     fun loadWeatherInfo() {
         viewModelScope.launch {
@@ -49,7 +46,6 @@ class WeatherViewModel @Inject constructor(
                     }
                 }
             } ?: run {
-                showRetrievePermissions = true
                 state = state.copy(
                     weatherInfo = null,
                     isLoading = false,
