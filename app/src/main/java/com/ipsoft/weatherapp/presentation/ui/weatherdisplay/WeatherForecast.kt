@@ -1,4 +1,4 @@
-package com.ipsoft.weatherapp.presentation
+package com.ipsoft.weatherapp.presentation.ui.weatherdisplay
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column

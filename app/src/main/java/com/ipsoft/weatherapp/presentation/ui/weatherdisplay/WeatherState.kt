@@ -1,4 +1,4 @@
-package com.ipsoft.weatherapp.presentation
+package com.ipsoft.weatherapp.presentation.ui.weatherdisplay
 
 import com.ipsoft.weatherapp.domain.weather.WeatherInfo
 

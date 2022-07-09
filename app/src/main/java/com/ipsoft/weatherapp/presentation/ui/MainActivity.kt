@@ -1,4 +1,4 @@
-package com.ipsoft.weatherapp.presentation
+package com.ipsoft.weatherapp.presentation.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -23,6 +23,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.ipsoft.weatherapp.presentation.theme.DarkBlue
 import com.ipsoft.weatherapp.presentation.theme.WheatherAppTheme
+import com.ipsoft.weatherapp.presentation.ui.weatherdisplay.WeatherCart
+import com.ipsoft.weatherapp.presentation.ui.weatherdisplay.WeatherForecast
+import com.ipsoft.weatherapp.presentation.ui.weatherdisplay.WeatherViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

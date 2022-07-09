@@ -1,4 +1,4 @@
-package com.ipsoft.weatherapp.presentation
+package com.ipsoft.weatherapp.presentation.ui.weatherdisplay
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
